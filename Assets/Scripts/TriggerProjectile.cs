@@ -7,10 +7,15 @@ public class TriggerProjectile : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            foreach (GameObject projectile in projectiles)
-            {
-                projectile.SetActive(true);
-            }
+            ActivateProjectiles();
+        }
+    }
+
+    private void ActivateProjectiles()
+    {
+        foreach (GameObject projectile in projectiles)
+        {
+            projectile.SetActive(true);
         }
     }
 }

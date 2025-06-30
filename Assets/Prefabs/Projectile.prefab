@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  player: {fileID: 3944678653581029131, guid: 2380ad76f6d53bf40829d89c98649e53, type: 3}
+  player: {fileID: 0}
