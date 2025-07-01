@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class TriggerProjectile : MonoBehaviour
@@ -17,5 +18,6 @@ public class TriggerProjectile : MonoBehaviour
         {
             projectile.SetActive(true);
         }
+        projectiles = Array.Empty<GameObject>();
     }
 }
