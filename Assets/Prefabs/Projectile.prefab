@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5669292365715162868}
   - component: {fileID: 6171867228638041689}
   - component: {fileID: 5164400427500646964}
+  - component: {fileID: 6247404642704588048}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -123,3 +124,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   player: {fileID: 0}
+--- !u!114 &6247404642704588048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7586599312379799665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f55509114ee834998f97703773a4d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class TriggerProjectile : MonoBehaviour
@@ -18,6 +17,8 @@ public class TriggerProjectile : MonoBehaviour
         {
             projectile.SetActive(true);
         }
-        projectiles = Array.Empty<GameObject>();
+        Destroy(gameObject);
+        // Also, it can be fixed by replacing an empty array after triggering on it.
+        // projectiles = Array.Empty<GameObject>();
     }
 }
